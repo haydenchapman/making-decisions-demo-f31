@@ -31,4 +31,9 @@ if(skywalkerAttack >= kenobiHealth){
 
 kenobiDefense += 30;
 
-if()
+for(let i = 0; i < 5; i++){
+    kenobiHealth -= (skywalkerAttack - kenobiDefense)
+    console.log(`Obiwan's health is now ${kenobiHealth}`)
+}
+
+while(kenobiHealth){}
